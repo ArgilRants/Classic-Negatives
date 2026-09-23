@@ -11,3 +11,10 @@ SMODS.Shader{
     path = 'negative.fs',
     prefix_config = { key = false },
 }
+
+SMODS.Atlas({
+	key = 'modicon',
+	path = 'icon.png',
+	px = 32,
+	py = 32
+})
